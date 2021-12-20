@@ -1,0 +1,51 @@
+.about{
+    background: #F9FAFC;
+    padding: 40px 0 55px 0;
+  
+}
+
+
+.about-container{
+    max-width: 778px;
+    background: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+.about__image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.about__image p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+.about__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.about__logo h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    color: #000000;
+}
+.about__cards{
+    display: flex;
+    column-gap: 50px;
+}
+.about__certificates{
+    margin: 40px 0 20px 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    color: #000000;
+}

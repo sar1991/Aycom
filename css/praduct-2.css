@@ -1,0 +1,145 @@
+.cards-category {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 15px;
+}
+.card-section {
+  background: #f9f9f9;
+  width: calc(100% / 3 - 18px);
+  display: flex;
+}
+.praduct__card {
+  display: flex;
+  align-items: end;
+  column-gap: 18px;
+  justify-content: space-between;
+}
+
+.praduct__main-tetle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 22px;
+  color: #000000;
+  margin: 40px 0 20px 0;
+}
+
+.praduct-card-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  row-gap: 5px;
+}
+.middle-text h4 {
+  margin: 40px 0 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.middle-text p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 54px;
+}
+.Accordeon-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.Accordeon-section h4 {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #f9f9f9;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.table-card h3 {
+  margin: 40px 0 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.table-card img {
+  width: 100%;
+}
+.about__praduct-cards {
+  padding-bottom: 490px;
+}
+.about__praduct-cards h3 {
+  margin: 40px 0 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.about-card__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.info-praduct-card {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  max-width: 585px;
+  max-height: 259px;
+  width: calc(100% / 2 - 10px);
+  padding: 8px;
+  column-gap: 5px;
+}
+.info-praduct-card-title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.praduc-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.parduc-img {
+  border-left: 20px solid red;
+  border-right: 20px solid red;
+}
+.answer {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1.4s ease;
+}
+.accordion.action .answer {
+  max-height: 300px;
+  animation: fade 1s ease-in-out;
+}
+.accordion.action svg {
+  transform: rotate(180deg);
+}
+svg {
+  transition: transform 0.5s ease-in;
+}
